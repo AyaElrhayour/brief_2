@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom ,rgba(21, 7, 1, 0.89),rgba(222, 191, 155, 0.65));
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+    margin-right: 25px;
+}
+nav ul li{
+   margin: 25px 25px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+main{
+    background-image: url("../img/Capture.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between ;
+}
+
+h1{
+    color: #412110;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 40px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0px;
+}
+.inputs input, textarea{
+    margin: 10px 35px;
+    width: 60%;
+    padding: 15px;
+    border-radius: 8px;
+    border: solid 1px #412110;
+    box-shadow: 5px 5px 10px  #412110 ;
+}
+.inputs button{
+    width: 25%;
+    padding: 10px 0px ;
+    margin: 20px 0px;
+    border-radius: 10px ;
+    border: 1px solid #412110;
+    background-color: #412110;
+    font: 45px bold 'Gill Sans' ;
+    color: white;
+}
+.imgcol img{
+    width: 300px;
+    margin-right: 15rem;
+    margin-top: 9.5rem;
+}
