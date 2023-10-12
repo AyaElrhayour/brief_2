@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+header{
+    background-image: linear-gradient(to bottom ,rgba(21, 7, 1, 0.89),rgba(222, 191, 155, 0));
+    z-index: 2;
+}
+main #sect1{
+    background-image: url("../img/image15.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top:-5.5rem;
+}
+main #sect1 h1{
+    color: #FFF;
+    width: 700px;
+    height: 277px;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 9rem 10rem;
+}
+main #sect1 button a{
+   text-decoration: none;
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 700;
+   text-transform: capitalize;
+}
+main #sect1 button{
+    background-color: #6A3927;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 50px;
+}
