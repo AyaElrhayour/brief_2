@@ -170,7 +170,6 @@ header{
 .card{
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
     margin-right: 40px;
     width: 250px;
@@ -188,11 +187,9 @@ header{
     margin-top: 10px;
     font-size: 20px;
     color: #47E185;
-    /* font-family: 'Lexend', sans-serif; */
+    
 }
 .map{
     margin: 30px 50px;
-    border: 2px solid #471E22;
+    border: 5px solid #795341;
 }
-
-/* Menu page */

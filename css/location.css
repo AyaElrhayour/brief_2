@@ -38,10 +38,17 @@ main #sect2{
     height: 1448px;
     display: flex;
     justify-content: space-around;
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr); */
     justify-items: center;
+    flex-direction: column;
+    align-items: center;
     padding-top: 100px;
+}
+main #sect2 .maindiv{
+    margin-top: -32rem;
+    flex-direction: row;
+    width: 80%;
+    background-color: transparent;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0);
 }
 main #sect2 div {
     display: flex;
@@ -53,7 +60,7 @@ main #sect2 div {
     border-radius: 5px;
     background: rgba(88, 49, 21, 0.57);
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
-    
+    margin: 0 20px;
 }
 main #sect2 div h2{
     width: 80%;
@@ -61,4 +68,75 @@ main #sect2 div h2{
     color: white;
     text-align: center;
     line-height: 30px; 
+}
+main #sect2 .maparea{
+   margin-top: -55rem;
+   width: 80%;
+   background-color: transparent;
+   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0);
+}
+main #sect2 .maparea h2{
+    color: #321207;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    line-height: normal;
+    padding-bottom: 40px;
+}
+main #sect2 .maparea .map{
+    width: 90%;
+    box-shadow: -15px 15px 30px 0px #412110;
+}
+main #sect3 {
+    background-image: url("../img/image11.PNG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    height: 656px;
+    margin-top: -17.6rem;
+    margin-bottom: -5.5rem;
+}
+main #sect3 .fstdiv{
+    display: flex;
+    align-items: center;
+}
+main #sect3 .fstdiv .text{
+    padding-left: 50px;
+}
+main #sect3 .fstdiv p{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+main #sect3 .fstdiv h2{
+    color: #FFF;
+    font-size: 110px;
+    font-weight: 700;
+    line-height: 120px;
+}
+main #sect3 .pic {
+    padding-top: 40px;
+}
+main #sect3 .snddiv{
+    display: flex;
+    margin-left: -6rem;
+    margin-top: -5rem;
+    
+}
+main #sect3 .snddiv .wkd , .fri , .wknd{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 9.2rem;
+}
+main #sect3 .snddiv h3 {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+}
+main #sect3 .snddiv p{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
 }
