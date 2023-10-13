@@ -16,18 +16,199 @@ main #sect1 h1{
     font-size: 64px;
     font-weight: 700;
     text-transform: capitalize;
-    padding: 9rem 10rem;
+    padding: 8rem 10rem;
 }
-main #sect1 button a{
+main #sect1 .btn button a{
    text-decoration: none;
    color: #FFF;
    font-size: 20px;
    font-weight: 700;
    text-transform: capitalize;
 }
-main #sect1 button{
+main #sect1 .btn button{
     background-color: #6A3927;
     border: none;
     border-radius: 10px;
     padding: 15px 50px;
+}
+main #sect1 .btn{
+    margin-left: 70%;
+    padding-bottom: 8rem;
+}
+main #sect2{
+    height: 290px;
+    background-color: #583115;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main #sect2 .text{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+main #sect2 .text h2{
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+main #sect2 .text h3{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 15px 0;
+}
+main #sect2 .text p{
+    width: 380px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+main #sect2 .text button a{
+   text-decoration: none;
+   color: #FFF;
+   font-size: 18px;
+}
+main #sect2 .text button{
+    background-color: #DFC09B;
+    border: none;
+    border-radius: 5px;
+    padding: 11px 35px;
+    font-weight: 600;
+    margin-left: 38rem;
+    margin-top: 18px;
+}
+main #sect3{
+    background-color: #EFE7E4;
+
+}
+main #sect3 .margdiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main #sect3 .margdiv h2{
+    color: #8A4522;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 88px;
+    letter-spacing: -3.15px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+main #sect3 .margdiv .grid .pselc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main #sect3 .margdiv .grid  img{
+    width: 80px;
+    margin:0 -30px;
+}
+main #sect3 .margdiv .grid  .icon{
+    position: relative;
+    z-index: 2;
+    margin-bottom: 15px;
+}
+main #sect3 .margdiv .grid  h3{
+    color: #090000;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+main #sect3 .margdiv .grid .prdct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    background: #68452C;
+    box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);  
+    margin: 25px;  
+}
+main #sect3 .margdiv .grid .prdct h3{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+}
+main #sect3 .margdiv .grid .prdct p{
+    color: #FFFADA;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 21px;
+}
+main #sect3 .margdiv .grid .prdct span{
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 700;
+}
+ main #sect3 .margdiv .grid{
+    display: flex;
+    flex-direction: column;
+} 
+main #sect3 .margdiv .grid .grid1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+}
+main #sect3 .margdiv .grid .grid2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+main #sect4{
+    background-image: url(../img/image29.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 801px;
+}
+main #sect4 .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 10px;
+    color: #68452C;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+}
+main #sect4 .line{
+    border: 1px solid #68452C;
+    width: 300px;
+    height: 0 ;
+    margin: 30px;
+}
+main #sect4 .customer-cards {
+    display: flex;
+    justify-content: center;
+}
+
+main #sect4 .customer-cards .card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 40px;
+    width: 250px;
+    padding: 20px 50px;
+    background: rgba(88, 49, 21, 0.57);
+    border-radius: 5px;
+}
+main #sect4 .customer-cards .card strong{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+main #sect4 .customer-cards .card em{
+    color: #D3CECE;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px ;
 }
