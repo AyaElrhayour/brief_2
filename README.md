@@ -22,6 +22,10 @@ Bartons is a professionally designed static website for a coffee shop, featuring
 
 https://ayaelrhayour.github.io/brief_2/
 
+## Presentation
+
+- [Presentation Link](https://www.canva.com/design/DAFxKX-_o5g/Rhx6IlwatamHAqCl9CqWzA/edit?utm_content=DAFxKX-_o5g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Tech Stack
 
 *Client:* HTML, CSS
