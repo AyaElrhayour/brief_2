@@ -5,7 +5,6 @@ main{
     display: flex;
     justify-content: space-between ;
 }
-
 h1{
     color: #412110;
     text-align: center;
