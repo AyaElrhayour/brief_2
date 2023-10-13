@@ -12,8 +12,8 @@ Bartons is a professionally designed static website for a coffee shop, featuring
 
 ## Figma Design
 
-### Home page
-![Home page](./img/frame1.PNG)
+### Mockups
+![Home page](./img/frame1.PNG)  ![Menu page](./img/frame2.PNG)  ![Location page](./img/frame3.PNG)  ![Contact page](./img/frame4.PNG)
 
 ## Figma link 
 - [Figma Link](https://www.figma.com/file/cF7aZ2O1Qfkvif8XRqEt8j/O'coffee?type=design&node-id=140%3A70&mode=design&t=lJmOMSuwMDy0AeDh-1)
