@@ -20,6 +20,9 @@ nav ul{
 nav ul li{
    margin: 25px 25px;
 }
+nav ul .vec{
+    display: none;
+}
 nav ul li a{
    text-decoration: none;
    color: white;
@@ -92,3 +95,78 @@ footer{
     background: #412110;
     border-radius: 10px;
 }
+
+
+@media screen and (max-width: 480px) {
+    header {
+      align-items: center;
+    }
+    nav ul .vec{
+        display: block;
+    }
+    nav ul .vec img{
+        width: 30px;
+    }
+    nav ul .vec img:hover ~ .deco{
+        display: block;
+    }
+    nav ul li {
+    display: none;
+    }
+
+    main {
+        flex-direction: column;
+    }
+    h1 {
+        margin: 20px 0;
+    }
+    .inputs {
+        width: 80%; 
+        margin-left: 10%;
+    }
+    .inputs input,
+    .inputs textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .imgcol .deco {
+        display: none;
+    }
+  
+    .socails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 0;
+    }
+  
+    .socails h2 {
+        font-size: 28px;
+    }
+
+    .socails .icons {
+        margin: 1rem 0;
+    }
+
+    .socails .icons img {
+        width: 30px; /* Increase the icon size */
+        margin: 0 10px;
+    }
+    .top {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .top .logo{
+        padding-top: 3.75rem;
+        margin-bottom: -3.75rem;
+    }
+}
+
+
+
+
+
